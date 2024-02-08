@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, #AA44B1 , #F3429B);
+}
+
+form{
+    margin: 10% 35%;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+form h1{
+    text-align: center;
+}
+form .log1{
+    width: 100%;
+    height:30px;
+  
+}
+form .log1 p{
+    font-weight: bold;
+    position: relative;
+    float: left ;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+    margin: 20px 0 20px 0;
+    padding: 8px 0;
+}
+form .log1 a{
+    border: none;
+    text-decoration: none;
+}
+.input input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 15px 0px;
+    border: rgb(147, 147, 147) solid 1px;
+    padding: 10px;
+}
+.input p{
+    float: left;
+    color:#F3429B;
+    font-weight: bold;
+}
+form .footp{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+}
+form span{
+    color:#C244A8 ;
+}
+
+form .submit:hover{
+    background-color: #b593ae;
+}
